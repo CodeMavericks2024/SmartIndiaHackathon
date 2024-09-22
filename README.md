@@ -1,5 +1,6 @@
-# Traffic Light Simulation with Traffic Congestion Analysis
-This project simulates traffic light signals based on real-time traffic congestion data fetched from the Google Maps API. The program is built using Python's Tkinter for the GUI and makes use of Google Maps Roads API and Google Maps Distance Matrix API to fetch data on traffic intensities around a specified location.
+# Traffic Light Management System
+# Overview
+The Traffic Light Management System is designed to manage and simulate traffic light operations based on real-time traffic data. The system dynamically adjusts traffic light cycles by analyzing road traffic intensity near a given location. Using APIs like Google Roads, Geocoding, and Distance Matrix, it gathers and processes traffic data, while displaying the results through an interactive user interface.
 
 # Features
 Traffic Intensity Detection: Using the Google Maps Roads API, it fetches nearby roads and calculates traffic intensities using the Distance Matrix API.
